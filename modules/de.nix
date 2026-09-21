@@ -9,6 +9,10 @@
 
     package = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland;
     portalPackage = inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.xdg-desktop-portal-hyprland;
+
+    extraConfig = ''
+      require(extraConfig)
+    ''
   };
   
   programs.uwsm.enable = true;
