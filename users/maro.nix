@@ -29,4 +29,6 @@
       llvmPackages_23.lld
     ];
   };
+
+  hm-maro.home.stateVersion = "26.05";
 }

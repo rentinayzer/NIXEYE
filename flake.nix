@@ -20,7 +20,7 @@
         ./configuration.nix	
         ./hardware-configuration.nix
         home-manager.nixosModules.home-manager
-        (lib.mkAliasOptionModule [ "hm-maro" ] [ "home-manager" "users" "maro" ])
+        (nixpkgs.lib.mkAliasOptionModule [ "hm-maro" ] [ "home-manager" "users" "maro" ])
         {
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
