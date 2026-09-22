@@ -1,12 +1,13 @@
 {
-  programs.firefox.enable = true;
+  programs = {
+    firefox = { enable = true; };
 
-  programs.steam.enable = true;
+    steam = { enable = true; };
 
-  programs.uwsm.enable = true;
-  
-  programs.nh = {
-    enable = true;
-    flake = "/etc/nixos/NIXEYE";
+    nh = {
+      enable = true;
+      flake = "/etc/nixos/NIXEYE";
+    };
+    
   };
 }
