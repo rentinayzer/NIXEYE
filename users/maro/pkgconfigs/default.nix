@@ -1,5 +1,5 @@
 {
   imports = [
-    ./maro
+    ./hyprland.nix
   ];
 }

@@ -2,6 +2,8 @@
   programs.firefox.enable = true;
 
   programs.steam.enable = true;
+
+  programs.uwsm.enable = true;
   
   programs.nh = {
     enable = true;
