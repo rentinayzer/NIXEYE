@@ -23,7 +23,7 @@
         autoLoad = true;
       };
 
-      "hyprland.look.feel" = {
+      "hyprland.look_feel" = {
         content = ../dotfiles/hypr/look_feel.lua;
         autoLoad = true;
       };
@@ -43,7 +43,7 @@
         autoLoad = true;
       };
 
-      "hyprland.programs.binds" = {
+      "hyprland.programs_binds" = {
         content = ../dotfiles/hypr/programs_binds.lua;
         autoLoad = true;
       };
