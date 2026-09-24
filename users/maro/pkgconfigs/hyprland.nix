@@ -6,6 +6,7 @@
   hm-maro.wayland.windowManager.hyprland = {
     enable = true;
     xwayland.enable = true;
+    systemd = { enable = true; };
 
     extraLuaFiles = {
       "hyprmodules.autostart" = {
