@@ -8,12 +8,12 @@
     xwayland.enable = true;
 
     extraLuaFiles = {
-      "hyprland.autostart" = {
+      "hyprmodules.autostart" = {
         content = ../dotfiles/hypr/autostart.lua;
         autoLoad = true;
       };
 
-      "hyprland.environment" = {
+      "hyprmodules.environment" = {
         content = ../dotfiles/hypr/environment.lua;
         autoLoad = true;
       };
