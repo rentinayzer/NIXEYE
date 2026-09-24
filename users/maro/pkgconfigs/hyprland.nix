@@ -18,37 +18,37 @@
         autoLoad = true;
       };
 
-      "hyprland.input" = {
+      "hyprmodules.input" = {
         content = ../dotfiles/hypr/input.lua;
         autoLoad = true;
       };
 
-      "hyprland.look_feel" = {
+      "hyprmodules.look_feel" = {
         content = ../dotfiles/hypr/look_feel.lua;
         autoLoad = true;
       };
 
-      "hyprland.misc" = {
+      "hyprmodules.misc" = {
         content = ../dotfiles/hypr/misc.lua;
         autoLoad = true;
       };
 
-      "hyprland.monitors" = {
+      "hyprmodules.monitors" = {
         content = ../dotfiles/hypr/monitors.lua;
         autoLoad = true;
       };
 
-      "hyprland.permissions" = {
+      "hyprmodules.permissions" = {
         content = ../dotfiles/hypr/permissions.lua;
         autoLoad = true;
       };
 
-      "hyprland.programs_binds" = {
+      "hyprmodules.programs_binds" = {
         content = ../dotfiles/hypr/programs_binds.lua;
         autoLoad = true;
       };
 
-      "hyprland.workspace" = {
+      "hyprmodules.workspace" = {
         content = ../dotfiles/hypr/workspace.lua;
         autoLoad = true;
       };
