@@ -17,6 +17,8 @@ local menu = "rofi"
 
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
+hl.bind(mainMod .. "+ SHIFT + Z", hl.dsp.exec_cmd("hyprshot -zm region --clipboard-only; killall hyprshot"))
+
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
 local closeWindowBind = hl.bind(mainMod .. " + C", hl.dsp.window.close())
