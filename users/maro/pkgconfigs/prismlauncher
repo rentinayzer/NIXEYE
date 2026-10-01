@@ -1,0 +1,21 @@
+{
+  hm-maro.programs.prismlauncher = {
+    enable = true;
+    themes = {
+      custom = {
+        theme = {
+          name = "John Theme";
+	  colors = {
+            background = "#1a1b26";
+	    foreground = "#323354";
+	  };
+	};
+      style = ''
+        QWidget {
+          font.family = "JetBrainsMono Nerd Font"
+	}
+      '';
+      };
+    };
+  };
+}
