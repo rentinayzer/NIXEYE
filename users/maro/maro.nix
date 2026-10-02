@@ -27,6 +27,7 @@
       llvmPackages_23.clang
       llvmPackages_23.clang-tools
       llvmPackages_23.lld
+      brave
     ];
   };
 
