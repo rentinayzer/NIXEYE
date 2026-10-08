@@ -1,11 +1,13 @@
 {
   pkgs,
+  inputs,
   ...
 }: {
   users.users.maro = {
     isNormalUser = true;
     extraGroups = [ "wheel" ];
     packages = with pkgs; [
+      inputs.helium.packages.${pkgs.system}.default
       tree
       kitty
       hyprpaper
@@ -27,7 +29,6 @@
       llvmPackages_23.clang
       llvmPackages_23.clang-tools
       llvmPackages_23.lld
-      helium
     ];
   };
 
