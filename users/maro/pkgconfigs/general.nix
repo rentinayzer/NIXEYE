@@ -3,7 +3,7 @@
   inputs,
   ...
 }:{
-  hm-maro.packages = with pkgs; [
+  hm-maro.home.packages = with pkgs; [
     inputs.helium.packages.${pkgs.system}.default
   ];
 }
