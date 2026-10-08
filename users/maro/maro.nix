@@ -7,7 +7,6 @@
     isNormalUser = true;
     extraGroups = [ "wheel" ];
     packages = with pkgs; [
-      inputs.helium.packages.${pkgs.system}.default
       tree
       kitty
       hyprpaper
