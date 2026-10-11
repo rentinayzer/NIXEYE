@@ -31,13 +31,6 @@
           home-manager.extraSpecialArgs = { inherit inputs; };
           home-manager.backupFileExtension = "hmbp";
         }
-        zapret2-nix.nixosModules.default
-        {
-          services.zapret2 = {
-            presets = [ "youtube" "discord" ];
-            defaultPreset = "discord";
-          };
-        }
       ];
     };
   };
