@@ -23,7 +23,7 @@
     zapretNixos = {
       enable = true;
       
-      presets = { discord = true; cloudflare = true; };
+      presets = { discord = true; cloudflare = true; telegram = true; youtube = true; };
       queueNum = 200;
 
       desync = "multidisorder";
