@@ -34,7 +34,6 @@
         zapret2-nix.nixosModules.default
         {
           services.zapret2 = {
-            enable = true;
             presets = [ "youtube" "discord" ];
             defaultPreset = "discord";
           };
