@@ -20,4 +20,9 @@
       };
     };
   };
+  zapret2 = {
+    enable = true;
+    presets = [ "discord" "youtube" ];
+    defaultPreset = "discord";
+  };
 }
