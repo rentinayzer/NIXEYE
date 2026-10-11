@@ -7,6 +7,7 @@
       vim
       wget
       git
+      ripgrep
     ];
   };
 }
