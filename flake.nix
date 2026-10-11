@@ -14,7 +14,7 @@
     home-manager,
     hyprland,
     helium,
-    zapret2-nix
+    zapret2-nix,
     ...
   }: {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
