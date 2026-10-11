@@ -23,7 +23,7 @@
     zapretNixos = {
       enable = true;
       
-      presets = { discord = true; cloudflake = true; };
+      presets = { discord = true; cloudflare = true; };
     };
   };
 }
