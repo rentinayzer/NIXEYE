@@ -6,6 +6,7 @@
     home-manager = { url = "github:nix-community/home-manager"; inputs.nixpkgs.follows = "nixpkgs"; };
     helium = { url = "github:amaanq/helium-flake"; inputs.nixpkgs.follows = "nixpkgs"; };
     zapret-nixos = { url = "github:playreaver/zapret-nixos"; inputs.nixpkgs.follows = "nixpkgs";}; 
+    nixcord = { url = "github:4evy/nixcord"; inputs.nixpkgs.follows = "nixpkgs"; };
   };
 
   outputs = inputs @ {
