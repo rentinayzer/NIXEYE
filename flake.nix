@@ -16,6 +16,7 @@
     hyprland,
     helium,
     zapret-nixos,
+    nixcord,
     ...
   }: {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
