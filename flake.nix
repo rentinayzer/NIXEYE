@@ -7,6 +7,7 @@
     helium = { url = "github:amaanq/helium-flake"; inputs.nixpkgs.follows = "nixpkgs"; };
     zapret-nixos = { url = "github:playreaver/zapret-nixos"; inputs.nixpkgs.follows = "nixpkgs";}; 
     nixcord = { url = "github:4evy/nixcord"; inputs.nixpkgs.follows = "nixpkgs"; };
+    millennium = { url = "github:SteamClientHomebrew/Millennium?dir=packages/nix"; inputs.nixpkgs.follows = "nixpkgs"; };
   };
 
   outputs = inputs @ {
