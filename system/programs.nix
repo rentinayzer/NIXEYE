@@ -3,12 +3,11 @@
   pkgs,
   ...
 }:{
-  
+  nixpkgs.overlays = [ inputs.millennium.overlays.default ];
+
   programs = {
     firefox = { enable = true; };
-
-    nixpkgs.overlays = [ inputs.millennium.overlays.default ];
-
+ 
     steam = { 
       enable = true; 
       package = pkgs.millennium-steam;
