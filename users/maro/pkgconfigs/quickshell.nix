@@ -3,6 +3,6 @@
     enable = true;
     
     activeConfig = "EYESHELL";
-    configs = { EYESHELL = ../dotfiles/quickshell/EYESHELL; }
+    configs = { EYESHELL = ../dotfiles/quickshell/EYESHELL; };
   };
 }
