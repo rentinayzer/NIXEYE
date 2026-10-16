@@ -461,6 +461,47 @@
         "type": "github"
       }
     },
+    "millennium": {
+      "inputs": {
+        "millennium-src": "millennium-src",
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "nixpkgs-bun": "nixpkgs-bun"
+      },
+      "locked": {
+        "dir": "packages/nix",
+        "lastModified": 1792022604,
+        "narHash": "sha256-xyl3KTB+j4W3dAxQVSolNJCQZOasDnCLB3Dr14adBmU=",
+        "owner": "SteamClientHomebrew",
+        "repo": "Millennium",
+        "rev": "22af2f453777a925fb398a3dab60a407e66aa83f",
+        "type": "github"
+      },
+      "original": {
+        "dir": "packages/nix",
+        "owner": "SteamClientHomebrew",
+        "repo": "Millennium",
+        "type": "github"
+      }
+    },
+    "millennium-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1791947497,
+        "narHash": "sha256-sNpoyJ+IjrTiDGfX2QiKVg4jkrJR7n9PdBeOYJSS4n8=",
+        "owner": "SteamClientHomebrew",
+        "repo": "Millennium",
+        "rev": "401d532543a0fbff469653ccba802bdd7e45f861",
+        "type": "github"
+      },
+      "original": {
+        "owner": "SteamClientHomebrew",
+        "repo": "Millennium",
+        "rev": "401d532543a0fbff469653ccba802bdd7e45f861",
+        "type": "github"
+      }
+    },
     "nix-darwin": {
       "inputs": {
         "nixpkgs": [
@@ -524,6 +565,22 @@
         "type": "github"
       }
     },
+    "nixpkgs-bun": {
+      "locked": {
+        "lastModified": 1790822859,
+        "narHash": "sha256-69xHQhAeMAD2wDXO7T2pcOZIF9Sga2W+JkmY2a11Ops=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "c59305bab2065cfecc4944690d9eedbb56f3a9fa",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "c59305bab2065cfecc4944690d9eedbb56f3a9fa",
+        "type": "github"
+      }
+    },
     "nixpkgs-ci": {
       "locked": {
         "lastModified": 1791130267,
@@ -577,6 +634,7 @@
         "helium": "helium",
         "home-manager": "home-manager",
         "hyprland": "hyprland",
+        "millennium": "millennium",
         "nixcord": "nixcord",
         "nixpkgs": "nixpkgs",
         "zapret-nixos": "zapret-nixos"
