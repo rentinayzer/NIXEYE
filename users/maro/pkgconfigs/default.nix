@@ -2,7 +2,8 @@
   imports = [
     ./general.nix
     ./hyprland.nix
-    ./prismlauncher.nix
     ./nixcord.nix
+    ./prismlauncher.nix
+    ./quickshell.nix
   ];
 }
