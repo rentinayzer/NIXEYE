@@ -4,5 +4,6 @@
     
     activeConfig = "EYESHELL";
     configs = { EYESHELL = ../dotfiles/quickshell/EYESHELL; };
+    systemd = { enable = true; };
   };
 }

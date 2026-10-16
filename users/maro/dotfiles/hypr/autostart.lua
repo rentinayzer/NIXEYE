@@ -8,5 +8,4 @@
 hl.on("hyprland.start", function () 
    hl.exec_cmd("upower")
    hl.exec_cmd("hypridle")
-   hl.exec_cmd("qs -p ~/.config/quickshell/shell.qml")
  end)
