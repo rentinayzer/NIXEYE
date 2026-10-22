@@ -9,7 +9,6 @@
     packages = with pkgs; [
       tree
       kitty
-      hyprpaper
       rofi
       thunar
       wl-clipboard
