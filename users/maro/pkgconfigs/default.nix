@@ -1,5 +1,6 @@
 {
   imports = [
+    ./awww.nix
     ./general.nix
     ./hyprland.nix
     ./nixcord.nix
