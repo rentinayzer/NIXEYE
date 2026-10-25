@@ -14,5 +14,11 @@
   time.timeZone = "Europe/Moscow";
   nixpkgs.config.allowUnfree = true;
 
-  system.stateVersion = "26.05";
+  system = { 
+    stateVersion = "26.05";
+    autoUpgrade = {
+      enable = true;
+      dates = "weekly";
+    };
+  };
 }
