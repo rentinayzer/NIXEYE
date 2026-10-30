@@ -10,7 +10,6 @@
       tree
       kitty
       rofi
-      thunar
       wl-clipboard
       neovim
       fastfetch
