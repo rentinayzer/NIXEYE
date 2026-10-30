@@ -6,7 +6,7 @@
 --                  |___/                         
 
 local terminal = "kitty"
-local fileManager = "thunar"
+local fileManager = "favnyr"
 local menu = "rofi"
 
 --  ____  _           _

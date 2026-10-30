@@ -8,6 +8,7 @@
     zapret-nixos = { url = "github:playreaver/zapret-nixos"; inputs.nixpkgs.follows = "nixpkgs";}; 
     nixcord = { url = "github:4evy/nixcord"; inputs.nixpkgs.follows = "nixpkgs"; };
     millennium = { url = "github:SteamClientHomebrew/Millennium?dir=packages/nix"; inputs.nixpkgs.follows = "nixpkgs"; };
+    fanvyr = { url = "github:GlitchAwakened/Favnyr?dir=packaging/nix"; inputs.nixpkgs.follows = "nixpkgs"; };
   };
 
   outputs = inputs @ {
@@ -18,6 +19,7 @@
     helium,
     zapret-nixos,
     nixcord,
+    fanvyr,
     ...
   }: {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
