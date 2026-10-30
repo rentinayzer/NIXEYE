@@ -37,6 +37,11 @@
           home-manager.backupFileExtension = "hmbp";
         }
         zapret-nixos.nixosModules.default
+        ({ pkgs, ... }: {
+          environment.systemPackages = [
+            favnyr.packages.${pkgs.stdenv.hostPlatform.system}.default
+          ];
+        })
       ];
     };
   };
