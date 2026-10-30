@@ -8,7 +8,7 @@
     zapret-nixos = { url = "github:playreaver/zapret-nixos"; inputs.nixpkgs.follows = "nixpkgs";}; 
     nixcord = { url = "github:4evy/nixcord"; inputs.nixpkgs.follows = "nixpkgs"; };
     millennium = { url = "github:SteamClientHomebrew/Millennium?dir=packages/nix"; inputs.nixpkgs.follows = "nixpkgs"; };
-    fanvyr = { url = "github:GlitchAwakened/Favnyr?dir=packaging/nix"; inputs.nixpkgs.follows = "nixpkgs"; };
+    favnyr = { url = "github:GlitchAwakened/Favnyr?dir=packaging/nix"; inputs.nixpkgs.follows = "nixpkgs"; };
   };
 
   outputs = inputs @ {
@@ -19,7 +19,7 @@
     helium,
     zapret-nixos,
     nixcord,
-    fanvyr,
+    favnyr,
     ...
   }: {
     nixosConfigurations.nixos = nixpkgs.lib.nixosSystem {
@@ -37,11 +37,6 @@
           home-manager.backupFileExtension = "hmbp";
         }
         zapret-nixos.nixosModules.default
-        ({ pkgs, ... }: {
-          environment.systemPackages = [
-            favnyr.packages.${pkgs.system}.default
-          ];
-        })
       ];
     };
   };
