@@ -8,7 +8,7 @@
       wget
       git
       ripgrep
-      favnyr.packages.${pkgs.stdenv.hostPlatform.system}.default   
+      favnyr.packages.${pkgs.system}.default
     ];
   };
 }
