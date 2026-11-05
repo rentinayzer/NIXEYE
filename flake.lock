@@ -753,28 +753,8 @@
         "repo": "xdg-desktop-portal-hyprland",
         "type": "github"
       }
-    },
-    "zapret-nixos": {
-      "inputs": {
-        "nixpkgs": [
-          "nixpkgs"
-        ]
-      },
-      "locked": {
-        "lastModified": 1785782963,
-        "narHash": "sha256-K2Ygxwv+KUL+56xWOycUSQzfoRqfG71ACWqGi/ty/W8=",
-        "owner": "playreaver",
-        "repo": "zapret-nixos",
-        "rev": "2adb262d79c4e79de8968aa6cc86ab9ea78c61a4",
-        "type": "github"
-      },
-      "original": {
-        "owner": "playreaver",
-        "repo": "zapret-nixos",
-        "type": "github"
-      }
     }
-  },
+  },  
   "root": "root",
   "version": 7
 }

@@ -5,7 +5,6 @@
     hyprland = { url = "github:hyprwm/hyprland"; inputs.nixpkgs.follows = "nixpkgs"; };
     home-manager = { url = "github:nix-community/home-manager"; inputs.nixpkgs.follows = "nixpkgs"; };
     helium = { url = "github:amaanq/helium-flake"; inputs.nixpkgs.follows = "nixpkgs"; };
-    zapret-nixos = { url = "github:playreaver/zapret-nixos"; inputs.nixpkgs.follows = "nixpkgs";}; 
     nixcord = { url = "github:4evy/nixcord"; inputs.nixpkgs.follows = "nixpkgs"; };
     millennium = { url = "github:SteamClientHomebrew/Millennium?dir=packages/nix"; inputs.nixpkgs.follows = "nixpkgs"; };
     favnyr = { url = "github:GlitchAwakened/Favnyr?dir=packaging/nix"; inputs.nixpkgs.follows = "nixpkgs"; };
@@ -17,7 +16,6 @@
     home-manager,
     hyprland,
     helium,
-    zapret-nixos,
     nixcord,
     favnyr,
     ...
@@ -36,7 +34,6 @@
           home-manager.extraSpecialArgs = { inherit inputs; };
           home-manager.backupFileExtension = "hmbp";
         }
-        zapret-nixos.nixosModules.default
         ({ pkgs, ... }: {
           environment.systemPackages = [
             favnyr.packages.${pkgs.stdenv.hostPlatform.system}.default
