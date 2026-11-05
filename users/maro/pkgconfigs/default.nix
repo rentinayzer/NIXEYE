@@ -6,6 +6,5 @@
     ./nixcord.nix
     ./prismlauncher.nix
     ./quickshell.nix
-    ./syncthing.nix
   ];
 }
