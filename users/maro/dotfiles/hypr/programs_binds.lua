@@ -17,7 +17,7 @@ local menu = "rofi"
 
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
-hl.bind(mainMod .. "+ SHIFT + S", hl.dsp.exec_cmd("grim -g \"$(slurp)\" - | satty --filename - --clipboard-command wl-copy"))
+hl.bind(mainMod .. "+ SHIFT + S", hl.dsp.exec_cmd("grim -g "$(slurp)" - | wl-copy --type image/png"))
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
