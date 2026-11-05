@@ -17,7 +17,7 @@ local menu = "rofi"
 
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
-hl.bind(mainMod .. "+ SHIFT + Z", hl.dsp.exec_cmd("hyprshot -zm region --clipboard-only; killall hyprshot"))
+hl.bind(mainMod .. "+ SHIFT + S", hl.dsp.exec_cmd("grim - \"$(slurp)\" | satty --filename - --clipboard-command wl-copy"))
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
@@ -49,8 +49,8 @@ hl.bind(mainMod .. " + S",         hl.dsp.workspace.toggle_special("magic"))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "special:magic" }))
 
 -- Scroll through existing workspaces with mainMod + scroll
-hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
-hl.bind(mainMod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
+-- hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
+-- hl.bind(mainMod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
 
 -- Move/resize windows with mainMod + LMB/RMB and dragging
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
