@@ -32,7 +32,7 @@
 	"~/Documents/Obsidian/TDDv2" = {
 
 	  enable = true;
-	  typee = "sendreceive";
+	  type = "sendreceive";
 
 	  devices = [
 	    "Thingamajig"
