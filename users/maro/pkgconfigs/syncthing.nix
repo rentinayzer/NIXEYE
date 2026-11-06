@@ -44,11 +44,5 @@
 	};
       };
     };
-
-    guiCredentials = {
-      username = "rentinayzer";
-      passwordFile = null;
-    };
-
   };
 }
