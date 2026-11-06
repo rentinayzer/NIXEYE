@@ -5,7 +5,7 @@
 
     settings = {
       gui = {
-        theme = black;
+        theme = "black";
       };
     };
   };
