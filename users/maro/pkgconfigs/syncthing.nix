@@ -18,7 +18,7 @@
 	"~/Documents/Obsidian/ITMO" = {
 	  
 	  enable = true;
-	  type = "sendonly";
+	  type = "sendreceive";
 
 	  devices = [
 	    "Thingamajig"
