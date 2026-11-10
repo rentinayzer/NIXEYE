@@ -15,33 +15,39 @@
 
       folders = {
 
-        "~/Documents/Obsidian/ITMO" = {
+        "ITMO" = {
 	  
+	  id = "kvftp-2w5rx";
+
           enable = true;
           type = "sendreceive";
-          label = "Scraps";
 
-           devices = [
-            "Thingamajig"
-            "Toplap"
-           ];
-	  
-          id = "kvftp-2w5rx";
-
-        };
-
-        "~/Documents/Obsidian/TDDv2" = {
-
-          enable = true;
+	  path = "~/Documents/Obsidian";
+	  name = "ITMO";
           label = "Notes";
-          type = "sendreceive";
 
           devices = [
             "Thingamajig"
             "Toplap"
           ];
+	  
+        };
 
-          id = "kqifh-3kahw";
+        "TDDv2" = {
+
+	  id = "kqifh-3kahw";
+
+          enable = true;
+          type = "sendreceive";
+
+          path = "~/Documents/Obsidian";
+	  name = "TDDv2";
+          label = "Scraps";
+
+          devices = [
+            "Thingamajig"
+            "Toplap"
+          ];
 
         };
       };
