@@ -22,7 +22,7 @@
           enable = true;
           type = "sendreceive";
 
-	  path = "~/Documents/Obsidian";
+	  path = "~/Documents/Obsidian/ITMO";
 	  name = "ITMO";
           label = "Notes";
 
@@ -40,7 +40,7 @@
           enable = true;
           type = "sendreceive";
 
-          path = "~/Documents/Obsidian";
+          path = "~/Documents/Obsidian/TDDv2";
 	  name = "TDDv2";
           label = "Scraps";
 
