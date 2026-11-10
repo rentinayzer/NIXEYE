@@ -19,6 +19,7 @@
 	  
           enable = true;
           type = "sendreceive";
+          label = "Scraps";
 
            devices = [
             "Thingamajig"
@@ -32,6 +33,7 @@
         "~/Documents/Obsidian/TDDv2" = {
 
           enable = true;
+          label = "Notes";
           type = "sendreceive";
 
           devices = [
