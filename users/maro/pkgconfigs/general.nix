@@ -8,5 +8,6 @@
     grim
     slurp
     unofficial-homestuck-collection
+    unzip
   ];
 }
