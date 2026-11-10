@@ -7,5 +7,6 @@
     inputs.helium.packages.${pkgs.stdenv.hostPlatform.system}.default
     grim
     slurp
+    unofficial-homestuck-collection
   ];
 }
