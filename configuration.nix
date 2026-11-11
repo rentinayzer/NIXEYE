@@ -15,9 +15,11 @@
 
   system = { 
     stateVersion = "26.05";
+
     autoUpgrade = {
       enable = true;
       dates = "weekly";
     };
+    
   };
 }
