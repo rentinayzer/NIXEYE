@@ -1,4 +1,7 @@
 {
+  lib,
+  ...
+}: {
   imports =
     [
       ./system
