@@ -9,39 +9,45 @@
       };
  
       devices = {
-        "Thingamajig".id = "KED3WA7-X72Y6UT-FYZGASB-PQAPXV6-RH76U34-QZ7S2D3-7ZC4USI-U72M3QC";
-        "Toplap".id = "OJ2LWSE-2CNMCJH-6QI6JSD-Y43SOVE-G423GF6-X35DET7-HBE5OKR-HA5U6AL";
+        "Thingamajig" = { id = "KED3WA7-X72Y6UT-FYZGASB-PQAPXV6-RH76U34-QZ7S2D3-7ZC4USI-U72M3QC"; };
+        "Toplap" = { id = "OJ2LWSE-2CNMCJH-6QI6JSD-Y43SOVE-G423GF6-X35DET7-HBE5OKR-HA5U6AL"; };
       };
 
       folders = {
 
-        "~/Documents/Obsidian/ITMO" = {
+        "ITMO" = {
 	  
+	  id = "kvftp-2w5rx";
+
           enable = true;
           type = "sendreceive";
-          label = "Scraps";
 
-           devices = [
-            "Thingamajig"
-            "Toplap"
-           ];
-	  
-          id = "kvftp-2w5rx";
-
-        };
-
-        "~/Documents/Obsidian/TDDv2" = {
-
-          enable = true;
+	  path = "~/Documents/Obsidian/ITMO";
+	  name = "ITMO";
           label = "Notes";
-          type = "sendreceive";
 
           devices = [
             "Thingamajig"
             "Toplap"
           ];
+	  
+        };
 
-          id = "kqifh-3kahw";
+        "TDDv2" = {
+
+	  id = "kqifh-3kahw";
+
+          enable = true;
+          type = "sendreceive";
+
+          path = "~/Documents/Obsidian/TDDv2";
+	  name = "TDDv2";
+          label = "Scraps";
+
+          devices = [
+            "Thingamajig"
+            "Toplap"
+          ];
 
         };
       };
