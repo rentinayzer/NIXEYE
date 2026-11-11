@@ -8,10 +8,24 @@
       ./users
     ];
 
-  nix.settings.experimental-features = [ 
-    "nix-command"
-    "flakes"
-  ];
+  nix = { 
+    settings = { 
+      experimental-features = [ 
+        "nix-command"
+        "flakes"
+      ];
+
+      auto-optimise-store = true;
+
+    };
+
+    gc = {
+      automatic = true;
+      dates = "weekly";
+
+      options = lib.makeDefault "--delete-older-than 14d";
+    };
+  };
 
   time.timeZone = "Europe/Moscow";
   nixpkgs.config.allowUnfree = true;
@@ -23,12 +37,5 @@
       enable = true;
       dates = "weekly";
     };
-  };
-
-  nix.gc = {
-    automatic = true;
-    dates = "weekly";
-
-    options = lib.makeDefault "--delete-older-than 14d";
   };
 }
