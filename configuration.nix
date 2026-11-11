@@ -15,11 +15,17 @@
 
   system = { 
     stateVersion = "26.05";
-
+    
     autoUpgrade = {
       enable = true;
       dates = "weekly";
     };
-    
+  };
+
+  nix.gc = {
+    automatic = true;
+    dates = "weekly";
+
+    options = lib.makeDefault "--delete-older-than 14d";
   };
 }
