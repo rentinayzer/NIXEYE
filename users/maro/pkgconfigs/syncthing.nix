@@ -17,13 +17,13 @@
 
         "ITMO" = {
 	  
-	  id = "kvftp-2w5rx";
+	        id = "kvftp-2w5rx";
 
           enable = true;
           type = "sendreceive";
 
-	  path = "~/Documents/Obsidian/ITMO";
-	  name = "ITMO";
+	        path = "~/Documents/Obsidian/ITMO";
+	        name = "ITMO";
           label = "Notes";
 
           devices = [
@@ -35,13 +35,13 @@
 
         "TDDv2" = {
 
-	  id = "kqifh-3kahw";
+	        id = "kqifh-3kahw";
 
           enable = true;
           type = "sendreceive";
 
           path = "~/Documents/Obsidian/TDDv2";
-	  name = "TDDv2";
+	        name = "TDDv2";
           label = "Scraps";
 
           devices = [
