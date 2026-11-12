@@ -23,7 +23,7 @@
       automatic = true;
       dates = "weekly";
 
-      options = lib.makeDefault "--delete-older-than 14d";
+      options = lib.mkDefault "--delete-older-than 14d";
     };
   };
 
